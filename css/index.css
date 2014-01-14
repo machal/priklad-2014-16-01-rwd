@@ -1,0 +1,18 @@
+/* Vychozi stylopis */
+
+/* Zakladni vzhled a typografie  */
+@import 'core/base.css';
+
+/* Pomocne tridy: clearovani atd. */
+@import 'core/helpers.css';
+
+/*  UI komponenty */
+@import 'ui/foot.css';
+@import 'ui/gallery.css';
+@import 'ui/head.css';
+@import 'ui/nav.css';
+@import 'ui/similar-articles.css';
+@import 'ui/photo.css';
+
+/* Layout webu ve sloupeccich */
+@import 'ui/layout.css' screen;
