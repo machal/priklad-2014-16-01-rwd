@@ -239,7 +239,7 @@ b .nav-item,
   }
 }
 /* Layout webu ve sloupeccich */
-@media (min-device-width: 550px) {
+@media (min-width: 550px) {
   /*
   
   --- Layout - pro siroke displeje ---
