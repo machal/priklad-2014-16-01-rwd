@@ -228,7 +228,7 @@ b .nav-item,
   display: block;
 }
 /* Layout webu ve sloupeccich */
-@media screen {
+@media (min-width: 550px) {
   /*
   
   --- Layout - pro siroke displeje ---
