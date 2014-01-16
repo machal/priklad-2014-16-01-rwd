@@ -6,6 +6,12 @@
 --- Zakladna: normalizace, typografie a barvy ---
 
 */
+@-ms-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
 body,
 input,
 textarea,
@@ -227,8 +233,13 @@ b .nav-item,
 .photo img {
   display: block;
 }
+@media (max-width: 769px) {
+  .rl-480-hide-tablecell {
+    display: none;
+  }
+}
 /* Layout webu ve sloupeccich */
-@media (min-width: 550px) {
+@media (min-device-width: 550px) {
   /*
   
   --- Layout - pro siroke displeje ---
