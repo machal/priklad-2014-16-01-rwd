@@ -107,18 +107,16 @@ table th {
 --- Fotogalerie ---
 
 */
-.gallery {
-  margin-right: -100px;
-  /* Prostor pro margin treti .gallery-item v radku */
-
-}
 .gallery-item {
   float: left;
-  width: 27.77777777777778%;
+  width: 31.48148148148148%;
   margin: 0 2.7777777777777777% 15px 0;
 }
 .gallery-item a {
   margin-bottom: 4px;
+}
+.gallery-item-third {
+  margin-right: 0;
 }
 /*
 
